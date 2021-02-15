@@ -1,0 +1,66 @@
+{
+  "node": "v14.15.4",
+  "system": {
+    "manufacturer": "HP",
+    "model": "HP Notebook"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-7200U",
+    "speed": 2.5
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Home",
+    "release": "10.0.19041"
+  },
+  "blockDevices": [
+    {
+      "name": "C:",
+      "size": "254 GB",
+      "fsType": "ntfs",
+      "physical": "Local"
+    },
+    {
+      "name": "D:",
+      "size": "0 GB",
+      "fsType": "",
+      "physical": "CD/DVD"
+    }
+  ],
+  "vscodeInfo": {
+    "version": "1.53.2",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "vscjava.vscode-java-debug"
+    ],
+    "userSettings": {
+      "workbench.sideBar.location": "left",
+      "git.autofetch": true,
+      "workbench.colorTheme": "Material Theme",
+      "liveServer.settings.donotShowInfoMsg": true,
+      "cSpell.userWords": [
+        "Burak"
+      ],
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "gitlens.advanced.messages": {
+        "suppressImproperWorkspaceCasingWarning": true
+      }
+    }
+  }
+}

@@ -4,9 +4,9 @@
    argument: the array of employee records.
 2. It should create a _new_ array, containing employee data without the private
    data.
-3. Use object destructuring to extract the non-private properties from an 
+3. Use ES5 object destructuring to extract the non-private properties from an 
    employee record (an `object`) and object literal shorthand to create a new 
-   employee record with just the non-private parts (name, occupation and email).
+   employee record with just the non-private parts.
 4. Return the new array as the return value of the function.
 ------------------------------------------------------------------------------*/
 const employeeRecords = [
@@ -26,8 +26,16 @@ const employeeRecords = [
   },
 ];
 
-function filterPrivateData(/* parameter(s) go here */) {
-  // TODO complete this function
+function filterPrivateData(arrayEmployee) {
+
+  const myArray = [];
+
+  for (const {name, occupation, email} of arrayEmployee){
+  const myObject = {name, occupation, email};
+  myArray.push(myObject)
+  }
+
+return myArray
 }
 
 console.log(filterPrivateData(employeeRecords));
