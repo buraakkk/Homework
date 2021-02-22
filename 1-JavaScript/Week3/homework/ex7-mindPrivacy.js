@@ -26,16 +26,11 @@ const employeeRecords = [
   },
 ];
 
-function filterPrivateData(arrayEmployee) {
-
-  const myArray = [];
-
-  for (const {name, occupation, email} of arrayEmployee){
-  const myObject = {name, occupation, email};
-  myArray.push(myObject)
-  }
-
-return myArray
+function filterPrivateData(arrayEmployees) {
+  return arrayEmployees.map((employee) => {
+    const {name, occupation, email} = employee
+    return {name, occupation, email}
+  })
 }
 
 console.log(filterPrivateData(employeeRecords));
