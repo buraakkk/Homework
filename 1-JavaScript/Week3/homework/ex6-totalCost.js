@@ -31,7 +31,7 @@ function calculateTotalPrice(myObject) {
   let sum = 0;
 
   for (const el in myObject) {
-    if (Object.prototype.hasOwnProperty.call(myObject, el)) {
+    if (Object.prototype.hasOwn.call(myObject, el)) {
       sum += parseFloat(myObject[el]);
     }
   }
