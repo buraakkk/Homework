@@ -28,8 +28,8 @@ function addToShoppingCart(grocery) {
   } else {
     shoppingCart.push(grocery);
   }
-  let i = 0;
-  for (i = 0; i < shoppingCart.length; i++) {
+  
+  for (let i = 0; i < shoppingCart.length; i++) {
     return `You bought ${shoppingCart[i]}, ${shoppingCart[i + 1]}, ${
       shoppingCart[i + 2]
     }!`;
